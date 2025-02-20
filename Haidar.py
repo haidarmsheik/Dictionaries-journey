@@ -16,3 +16,6 @@ yearlyRent = rent * 12
 yearlyElectricity = electricity * 12
 
 salaryPowered = salary ** 2
+
+additionalSavings = float(input("please enter the amount of addtitional savings :") )
+totalAdditionalsavings = additionalSavings / savings
