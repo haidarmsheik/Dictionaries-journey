@@ -14,3 +14,5 @@ remainder = salary - totalAmount
 
 yearlyRent = rent * 12
 yearlyElectricity = electricity * 12
+
+salaryPowered = salary ** 2
