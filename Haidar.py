@@ -7,3 +7,10 @@ electricityPercentage = int(input("please enter the percentage of electricity :"
 savings = (savingsPercentage / 100) * salary
 rent = (rentPercentage / 100) * salary
 electricity = (electricityPercentage / 100) * salary
+
+totalAmount = savings + rent + electricity
+
+remainder = salary - totalAmount
+
+yearlyRent = rent * 12
+yearlyElectricity = electricity * 12
