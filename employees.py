@@ -20,7 +20,13 @@ def count(company_employees):
 total = count(company_employees)
 print("Total nb of employees :" , total)
 
-
-
-
+def reverse_dictionary(input_dict):
+  reversed_dict = {}
+  for name , number in input_dict.items():
+    if number not in reversed_dict:
+      reversed_dict[number].append(name)
+    return reversed_dict
+  input_dict = {"Alice": 10 , "Bob" : 20 , "Charlie" : 10,"David" : 30}
+  output_dict = reverse_dictionary(input_dict)
+  print(output_dict)
 
